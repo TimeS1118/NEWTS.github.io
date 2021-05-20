@@ -1,0 +1,56 @@
+<html lang="zh">
+<script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+        unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+        'copy',
+        'cut',
+        'contextmenu',
+        'selectstart',
+        'mousedown',
+        'mouseup',
+        'mousemove',
+        'keydown',
+        'keypress',
+        'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+        if (unlock) {
+            e.stopPropagation()
+            if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+        }
+    }
+    copyEvents.forEach((evt) => {
+        document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+            capture: true,
+        })
+    })
+})()</script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hhhhhhhhhhhhh</title>
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+</head>
+<body>
+<!-- COIDEA:header START -->
+<header class="coidea-header"></header>
+<!-- COIDEA:header END -->
+
+<!-- COIDEA:demo START -->
+<section id="ci-particles">
+    <canvas id="canvas" width="1920" height="937"></canvas>
+    <h1 id="headline" style="display:none">王俊龙是SB</h1>
+</section>
+<!-- COIDEA:demo END -->
+
+<script src="demo.js"></script>
+
+
+</body>
+</html>
