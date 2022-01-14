@@ -1,0 +1,3283 @@
+.index .loadingBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.index .loadingBox .loadingImg {
+    height: 21.33333vw;
+    width: 21.33333vw
+}
+
+.hdlHeaderView {
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 100%;
+    z-index: 999
+}
+
+.hdlHeaderView .headerView {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999
+}
+
+.hdlHeaderView .headerView .headerInfo {
+    display: flex;
+    align-items: center;
+    min-height: 11.73333vw;
+    padding: 5.33333vw 4.8vw 0;
+    justify-content: space-between
+}
+
+.hdlHeaderView .headerView .headerInfo .headerImg {
+    display: flex;
+    align-items: center;
+    height: 11.73333vw;
+    width: 16vw
+}
+
+.hdlHeaderView .headerView .headerInfo .headerImg img {
+    width: 2.4vw;
+    height: 4.26667vw
+}
+
+.hdlHeaderView .headerView .headerInfo .headerTitle {
+    font-family: Microsoft Yahei;
+    font-size: 4.26667vw;
+    color: #333;
+    letter-spacing: 0
+}
+
+.hdlHeaderView .headerView .headerInfo .headerRight {
+    display: flex;
+    align-items: center;
+    font-family: Microsoft Yahei;
+    font-size: 3.73333vw;
+    color: #464545;
+    letter-spacing: 0;
+    text-align: right;
+    width: 16vw;
+    height: 100%;
+    justify-content: flex-end
+}
+
+.peopleNumBox {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .4);
+    -webkit-backdrop-filter: blur(.26667vw);
+    backdrop-filter: blur(.26667vw);
+    z-index: 999;
+    display: flex;
+    align-items: flex-end
+}
+
+.peopleNumBox .am-picker-col-item {
+    color: #aaa
+}
+
+.peopleNumBox .peopleNumContent {
+    background: #fff;
+    width: 100%;
+    border-top-left-radius: 1.06667vw;
+    border-top-right-radius: 1.06667vw;
+    overflow: hidden
+}
+
+.peopleNumBox .peopleNumContent .am-picker-col-item-selected {
+    color: #333 !important
+}
+
+.peopleNumBox .peopleNumContent .peopleNumHeader {
+    display: flex;
+    width: 100%;
+    height: 16vw;
+    padding: 0 5.33333vw;
+    background: #fafafa;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 1.06667vw;
+    border-top-right-radius: 1.06667vw;
+    overflow: hidden
+}
+
+.peopleNumBox .peopleNumContent .peopleNumHeader .cancel {
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: center;
+    color: #666
+}
+
+.peopleNumBox .peopleNumContent .peopleNumHeader .confrim {
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: center;
+    color: #e2b883
+}
+
+.datePickerBox {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .4);
+    -webkit-backdrop-filter: blur(.26667vw);
+    backdrop-filter: blur(.26667vw);
+    z-index: 999;
+    display: flex;
+    align-items: flex-end
+}
+
+.datePickerBox .peopleNumContent {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    border-top-left-radius: 1.06667vw;
+    border-top-right-radius: 1.06667vw;
+    overflow: hidden
+}
+
+.datePickerBox .peopleNumContent .am-picker-col-item-selected {
+    color: #333 !important
+}
+
+.datePickerBox .peopleNumContent .peopleNumHeader {
+    display: flex;
+    width: 100%;
+    height: 16vw;
+    padding: 0 5.33333vw;
+    background: #fafafa;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 1.06667vw;
+    border-top-right-radius: 1.06667vw;
+    overflow: hidden
+}
+
+.datePickerBox .peopleNumContent .peopleNumHeader .cancel {
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: center;
+    color: #666
+}
+
+.datePickerBox .peopleNumContent .peopleNumHeader .confrim {
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: center;
+    color: #e2b883
+}
+
+.dinnerBottomBox {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: 9999
+}
+
+.dinnerBottomBox .dinnerBottomView {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 110.66667vw;
+    opacity: 1;
+    background: #fff;
+    border-radius: 10px 10px 0 0
+}
+
+.dinnerBottomBox .dinnerBottomView .close {
+    display: flex;
+    opacity: 1;
+    margin-top: 1.06667vw;
+    margin-bottom: 1.06667vw;
+    justify-content: flex-end
+}
+
+.dinnerBottomBox .dinnerBottomView .close .closeImg {
+    width: 5.33333vw;
+    height: 5.33333vw;
+    border: 4.26667vw solid transparent;
+    box-sizing: content-box
+}
+
+.dinnerBottomBox .dinnerBottomView .peopleBtns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin-bottom: 6.4vw
+}
+
+.dinnerBottomBox .dinnerBottomView .peopleBtns .peopleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    min-width: 17.33333vw;
+    height: 10.66667vw;
+    background: #fafafa;
+    border-radius: 5.33333vw;
+    opacity: 1;
+    font-size: 12px;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #666;
+    margin-left: 2.66667vw;
+    padding: 0 2.13333vw
+}
+
+.dinnerBottomBox .dinnerBottomView .peopleBtns .peopleBtn .value2 {
+    margin-top: .53333vw
+}
+
+.dinnerBottomBox .dinnerBottomView .peopleBtns .peopleBtn.width84 {
+    width: 22.4vw
+}
+
+.dinnerBottomBox .dinnerBottomView .peopleBtns .peopleBtn:last-child {
+    margin-right: 5.33333vw
+}
+
+.dinnerBottomBox .dinnerBottomView .peopleBtns .peopleBtn.active {
+    background: #e2b883;
+    color: #fff
+}
+
+.dinnerBottomBox .dinnerBottomView .peopleBtns .peopleBtn.disable {
+    background: #f3f3f3;
+    color: #dedcde
+}
+
+.dinnerBottomBox .dinnerBottomView .confrimBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11.73333vw
+}
+
+.dinnerBottomBox .dinnerBottomView .confrimBox .confrimImg {
+    width: 89.33333vw;
+    height: 10.66667vw;
+    opacity: 1
+}
+
+.phoneModalBox {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.phoneModalBox .phoneModal {
+    width: 85.33333vw;
+    height: auto;
+    opacity: 1;
+    background: #fff;
+    border-radius: 2.13333vw
+}
+
+.phoneModalBox .phoneModal .modalTitle {
+    opacity: .5;
+    font-size: 4.53333vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    line-height: 6.4vw;
+    margin: 4.8vw 0
+}
+
+.phoneModalBox .phoneModal .modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 32.53333vw
+}
+
+.phoneModalBox .phoneModal .modalContent .selectPhone {
+    width: 72.53333vw;
+    height: 6.4vw;
+    opacity: .5;
+    font-size: 4.53333vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    line-height: 6.4vw
+}
+
+.phoneModalBox .phoneModal .modalContent .phoneContent .phoneLine {
+    width: 85.33333vw;
+    height: .26667vw;
+    opacity: 1;
+    background: rgba(0, 0, 0, .1);
+    margin-bottom: 4.8vw
+}
+
+.phoneModalBox .phoneModal .modalContent .phoneContent .phoneVal {
+    opacity: .9;
+    font-size: 4.53333vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+    line-height: 6.4vw;
+    margin-bottom: 4.8vw
+}
+
+.phoneModalBox .phoneModal .modalContent .phoneContent:end {
+    margin: 0;
+    padding: 0
+}
+
+.phoneModalBox .phoneModal .modalContent .phoneVal:end {
+    margin-bottom: 0
+}
+
+.dinnerBox .headerTop {
+    position: fixed;
+    padding: 2.66667vw 4.26667vw 4.26667vw;
+    background: #fff;
+    width: 100%;
+    z-index: 9
+}
+
+.dinnerBox .headerTop .topFirstBox {
+    display: flex;
+    flex-direction: row
+}
+
+.dinnerBox .headerTop .topFirstBox .firstCityBox {
+    width: 57.6vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4.26667vw
+}
+
+.dinnerBox .headerTop .topFirstBox .firstCityBox .searchStore {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #999
+}
+
+.dinnerBox .headerTop .topFirstBox .firstCityBox .cityName {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    max-width: 21.33333vw;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.dinnerBox .headerTop .topFirstBox .firstCityBox .cityImg {
+    height: 4.26667vw;
+    width: 4.26667vw;
+    margin: 0 1.6vw
+}
+
+.dinnerBox .headerTop .topFirstBox .firstCityBox .citySearch {
+    height: 3.73333vw;
+    width: 3.73333vw;
+    margin-right: 2.13333vw
+}
+
+.dinnerBox .headerTop .topFirstBox .firstCityBox .cityLine {
+    display: inline-block;
+    width: .53333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    background: #dedcde;
+    border-radius: .26667vw;
+    margin-right: 3.2vw
+}
+
+.dinnerBox .headerTop .topFirstBox .firstRoomBox {
+    width: 31.2vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    margin-left: 2.66667vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.dinnerBox .headerTop .topFirstBox .firstRoomBox .roomBoxTitle {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 800;
+    text-align: left;
+    color: #999
+}
+
+.dinnerBox .headerTop .topFirstBox .firstRoomBox .roomBoxImg {
+    width: 7.46667vw;
+    height: 4.26667vw;
+    opacity: 1;
+    margin-left: 1.6vw;
+    flex-shrink: 1
+}
+
+.dinnerBox .headerTop .topTimeBox {
+    display: flex;
+    align-items: center;
+    width: 91.46667vw;
+    height: 12.26667vw;
+    opacity: 1;
+    background: #fff;
+    border: .53333vw solid #eed8b3;
+    border-radius: 3.2vw;
+    box-sizing: border-box;
+    padding-left: 4.8vw;
+    margin-top: 4.26667vw
+}
+
+.dinnerBox .headerTop .topTimeBox .peopleBoxView, .dinnerBox .headerTop .topTimeBox .timeBoxView {
+    display: flex;
+    align-items: center
+}
+
+.dinnerBox .headerTop .topTimeBox .peopleImg {
+    width: 4.26667vw;
+    height: 4.26667vw;
+    opacity: 1;
+    margin-right: 1.06667vw
+}
+
+.dinnerBox .headerTop .topTimeBox .peopleNum {
+    opacity: 1;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: right;
+    color: #333;
+    margin-right: 2.13333vw
+}
+
+.dinnerBox .headerTop .topTimeBox .logoImg {
+    width: 4.26667vw;
+    height: 4.26667vw
+}
+
+.dinnerBox .headerTop .topTimeBox .timeLine {
+    width: .53333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    background: #eed8b3;
+    border-radius: .26667vw;
+    margin-left: 1.6vw;
+    margin-right: 3.2vw
+}
+
+.dinnerBox .headerTop .topTimeBox .calendarImg {
+    width: 4vw;
+    height: 4vw;
+    opacity: 1;
+    margin-right: 2.13333vw
+}
+
+.dinnerBox .headerTop .topTimeBox .calendarText {
+    opacity: 1;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333
+}
+
+.dinnerBox .headerTop .topLastTime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.26667vw
+}
+
+.dinnerBox .headerTop .topLastTime .lastLi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+    height: 6.66667vw;
+    background: #f3f3f3;
+    border-radius: 3.46667vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #999;
+    padding: 0 2.66667vw;
+    flex-shrink: 0
+}
+
+.dinnerBox .headerTop .topLastTime .lastLi.active {
+    background: #eed8b3;
+    color: #fff
+}
+
+.dinnerBox .headerTop .topLastTime .lastLi.disable {
+    background: #f3f3f3;
+    color: #dedcde
+}
+
+.dinnerBox .pull-load-head {
+    height: 0;
+    display: none
+}
+
+.dinnerBox .storeBox {
+    margin-top: 44vw;
+    padding-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.dinnerBox .storeBox .pull-load {
+    min-height: 60vh
+}
+
+.dinnerBox .storeBox .storeLi {
+    width: 93.6vw;
+    border-radius: 2.66667vw;
+    box-shadow: 0 .53333vw 2.13333vw 0 #e6e6e6;
+    background: #fff;
+    margin-bottom: 4vw;
+    padding-top: 5.86667vw;
+    padding-bottom: 3.2vw;
+    position: relative
+}
+
+.dinnerBox .storeBox .storeLi .upgrade {
+    width: 16.53333vw;
+    height: 4.26667vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #787878;
+    border-radius: 2.66667vw 0 2.66667vw 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.dinnerBox .storeBox .storeLi .upgrade span {
+    opacity: 1;
+    font-size: 2.66667vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    line-height: 3.73333vw
+}
+
+.dinnerBox .storeBox .storeLi .storeInfo {
+    display: flex;
+    align-items: center;
+    padding: 0 5.33333vw
+}
+
+.dinnerBox .storeBox .storeLi .storeInfo .storeName {
+    opacity: 1;
+    font-size: 4.26667vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333
+}
+
+.dinnerBox .storeBox .storeLi .storeInfo .storeDistance {
+    height: 4.53333vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    margin-left: 3.73333vw;
+    color: #333;
+    line-height: 4.53333vw;
+    flex-shrink: 0;
+    margin-right: 2.66667vw
+}
+
+.dinnerBox .storeBox .storeLi .storeInfo .storecallPhoneImgce {
+    height: 4vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 600;
+    text-align: left;
+    color: #333;
+    line-height: 4vw;
+    margin-left: 2.66667vw
+}
+
+.dinnerBox .storeBox .storeLi .callPhoneBox {
+    width: 23.46667vw;
+    height: 6.66667vw;
+    margin-left: auto;
+    opacity: 1
+}
+
+.dinnerBox .storeBox .storeLi .callPhoneBox .callPhoneImg {
+    width: 23.46667vw;
+    height: 6.66667vw
+}
+
+.dinnerBox .storeBox .storeLi .storeAddress {
+    opacity: 1;
+    font-size: 2.93333vw;
+    font-family: PingFangSC;
+    font-weight: 500;
+    text-align: left;
+    color: #9a9a9a;
+    line-height: 4.26667vw;
+    padding: 0 5.33333vw;
+    margin-top: 1.86667vw
+}
+
+.dinnerBox .storeBox .storeLi .callPhoneImgIcon {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0
+}
+
+.dinnerBox .storeBox .storeLi .callPhoneImgIcon .callPhoneLine {
+    width: .26667vw;
+    height: 3.46667vw;
+    opacity: 1;
+    background: #f2f2f2;
+    margin-right: 4vw
+}
+
+.dinnerBox .storeBox .storeLi .callPhoneImgIcon .callPhoneImgMobile {
+    width: 4vw;
+    height: 4vw;
+    opacity: 1
+}
+
+.dinnerBox .storeBox .timeBtns {
+    margin-top: 3.2vw;
+    white-space: nowrap;
+    display: flex;
+    height: 19.46667vw;
+    overflow-x: scroll
+}
+
+.dinnerBox .storeBox .timeBtns .timeBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20.53333vw;
+    height: 17.33333vw;
+    opacity: 1;
+    background: #fff;
+    border-radius: 2.13333vw;
+    box-shadow: 0 .53333vw 2.13333vw 0 #e6e6e6;
+    margin-left: 3.2vw;
+    flex-shrink: 0
+}
+
+.dinnerBox .storeBox .timeBtns .timeBtn .time {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: center;
+    color: #333
+}
+
+.dinnerBox .storeBox .timeBtns .timeBtn .btnLine {
+    width: 16.26667vw;
+    height: .26667vw;
+    opacity: 1;
+    background: #f2f2f2;
+    margin-top: 1.86667vw;
+    margin-bottom: 1.6vw
+}
+
+.dinnerBox .storeBox .timeBtns .timeBtn .btnImg {
+    width: 16.26667vw;
+    height: 6.66667vw;
+    opacity: 1
+}
+
+.dinnerBox .storeBox .timeBtns .timeBtn:first-child {
+    margin-left: 4.26667vw
+}
+
+.dinnerBox .storeBox .timeBtns .timeBtn:last-child {
+    margin-right: 4.26667vw
+}
+
+.takeNum {
+    width: 100%;
+    background-image: url(../images/background-img.9c31f7e9.png);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.takeNum .content {
+    opacity: 1;
+    background: #fff;
+    border-radius: 0 0 2.66667vw 2.66667vw;
+    box-shadow: 0 .53333vw 2.13333vw 0 #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 4.26667vw 4.26667vw;
+    position: fixed;
+    z-index: 9
+}
+
+.takeNum .content .searchContent {
+    width: 91.46667vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2.66667vw
+}
+
+.takeNum .content .searchContent .cityName {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 700;
+    text-align: left;
+    color: #333;
+    line-height: 3.2vw;
+    margin-left: 4.26667vw
+}
+
+.takeNum .content .searchContent .numeralDot {
+    width: 4.26667vw;
+    height: 4.26667vw;
+    opacity: 1;
+    margin-left: 2.93333vw
+}
+
+.takeNum .content .searchContent .searchline {
+    width: .53333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    background: #dedcde;
+    border-radius: .26667vw;
+    margin-left: 2.93333vw
+}
+
+.takeNum .content .searchContent .numeralSearch {
+    width: 3.73333vw;
+    height: 3.73333vw;
+    opacity: 1;
+    margin-left: 3.2vw;
+    flex-shrink: 0
+}
+
+.takeNum .content .searchContent .searchStore {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #999;
+    line-height: 3.2vw;
+    margin-left: 2.13333vw
+}
+
+.takeNum .loadingBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.takeNum .loadingBox .loadingImg {
+    height: 21.33333vw;
+    width: 21.33333vw
+}
+
+.takeNum .storeList {
+    position: relative;
+    margin: 0 3.2vw;
+    display: flex;
+    flex-direction: column;
+    top: 37.06667vw
+}
+
+.takeNum .storeList .upgrade {
+    width: 16.53333vw;
+    height: 4.26667vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #787878;
+    border-radius: 2.66667vw 0 2.66667vw 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.takeNum .storeList .upgrade span {
+    opacity: 1;
+    font-size: 2.66667vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    line-height: 3.73333vw
+}
+
+.dinningContent {
+    width: 91.46667vw;
+    height: 12.26667vw;
+    opacity: 1;
+    background: #fff;
+    border: .53333vw solid #eed8b3;
+    border-radius: 3.2vw;
+    margin-top: 4.26667vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.dinningContent .kefu {
+    width: 4.26667vw;
+    height: 4.26667vw;
+    opacity: 1;
+    margin-left: 4.8vw
+}
+
+.dinningContent .number {
+    opacity: 1;
+    font-size: 3.73333vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 700;
+    text-align: right;
+    color: #333;
+    line-height: 3.73333vw;
+    margin-left: 1.06667vw
+}
+
+.dinningContent .numeralDot {
+    width: 4.26667vw;
+    height: 4.26667vw;
+    opacity: 1;
+    margin-left: 2.4vw
+}
+
+.dinningContent .searchline {
+    width: .53333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    background: #eed8b3;
+    border-radius: .26667vw;
+    margin-left: 1.6vw
+}
+
+.dinningContent .numeralCalendar {
+    width: 4vw;
+    height: 3.2vw;
+    opacity: 1;
+    border-radius: .8vw;
+    margin-left: 3.2vw;
+    flex-shrink: 0
+}
+
+.dinningContent .today {
+    opacity: 1;
+    font-size: 3.73333vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 600;
+    text-align: left;
+    color: #999;
+    line-height: 3.73333vw;
+    margin-left: 2.13333vw
+}
+
+.storeDataList .storeInfo {
+    width: 93.6vw;
+    opacity: 1;
+    background: #fff;
+    border-radius: 2.66667vw;
+    box-shadow: 0 .53333vw 2.13333vw 0 #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vw;
+    position: relative;
+    padding-bottom: 5.86667vw
+}
+
+.storeDataList .storeInfo .store {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 4vw;
+    padding-top: 5.86667vw
+}
+
+.storeDataList .storeInfo .store .storeDistance {
+    display: flex;
+    align-items: center;
+    padding: 0 5.33333vw
+}
+
+.storeDataList .storeInfo .store .storeDistance .nameAnd {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.storeDataList .storeInfo .store .storeDistance .nameAnd .storeName {
+    opacity: 1;
+    font-size: 4.26667vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 700;
+    text-align: left;
+    color: #333;
+    max-width: 40vw
+}
+
+.storeDataList .storeInfo .store .storeDistance .nameAnd .distance {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #333;
+    line-height: 4.53333vw;
+    margin-left: 3.73333vw;
+    margin-right: 2.66667vw
+}
+
+.storeDataList .storeInfo .store .storeDistance .mobileFor8 {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0
+}
+
+.storeDataList .storeInfo .store .storeDistance .mobileFor8 .storeOnlyPhone {
+    width: 23.46667vw;
+    height: 6.66667vw;
+    opacity: 1
+}
+
+.storeDataList .storeInfo .store .storeDistance .mobileFor8 img {
+    width: 4vw;
+    flex-shrink: 0
+}
+
+.storeDataList .storeInfo .store .storeDistance .mobileFor8 .numberLine {
+    width: .26667vw;
+    height: 3.46667vw;
+    opacity: 1;
+    background: #f2f2f2;
+    margin-right: 4vw
+}
+
+.storeDataList .storeInfo .store .storeDistance .mobileFor8 .mobile {
+    width: 4vw;
+    height: 4vw;
+    opacity: 1
+}
+
+.storeDataList .storeInfo .store .address {
+    opacity: 1;
+    font-size: 2.93333vw;
+    font-family: PingFangSC;
+    font-weight: 500;
+    text-align: left;
+    color: #9a9a9a;
+    line-height: 4.26667vw;
+    padding: 0 5.33333vw;
+    margin-top: 1.86667vw
+}
+
+.storeDataList .storeInfo .showTipBox {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 1.33333vw;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 5.33333vw;
+    justify-content: space-between
+}
+
+.storeDataList .storeInfo .nonEmptyTip {
+    color: #e2b883;
+    font-size: 2.66667vw;
+    font-weight: 700
+}
+
+.storeDataList .storeInfo .takeNumber {
+    width: 16.26667vw;
+    height: 6.66667vw
+}
+
+.storeDataList .storeInfo:first-child {
+    margin-top: 0
+}
+
+.storeDataList .upgrade {
+    width: 16.53333vw;
+    height: 4.26667vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #787878;
+    border-radius: 2.66667vw 0 2.66667vw 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.storeDataList .upgrade span {
+    opacity: 1;
+    font-size: 2.66667vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    line-height: 3.73333vw
+}
+
+.result {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background-img.9c31f7e9.png);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.result .resultBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.result .resultBox .line {
+    position: fixed;
+    width: 91.46667vw;
+    height: 4vw;
+    opacity: 1;
+    background: #333;
+    border: 1.06667vw solid #e1caa0;
+    border-radius: 4.26667vw;
+    margin-top: 4.26667vw
+}
+
+.result .resultBox .dinningFailBox {
+    position: relative;
+    z-index: 2;
+    margin: 6.13333vw 5.33333vw 0;
+    width: 89.33333vw;
+    opacity: 1;
+    background: #fff;
+    border-radius: 1.6vw;
+    box-shadow: 0 .53333vw 2.13333vw 0 #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8.53333vw
+}
+
+.result .operateContent {
+    display: flex;
+    flex-direction: row;
+    margin: 12.8vw 0 8.53333vw
+}
+
+.result .operateContent .operBtn {
+    width: 37.06667vw;
+    height: 10.66667vw;
+    opacity: 1;
+    margin-left: 2.4vw
+}
+
+.result .operateContent .operBtn:first-child {
+    margin-left: 0
+}
+
+.result .backImage {
+    width: 15.73333vw;
+    opacity: 1;
+    flex-shrink: 0;
+    margin: 5.33333vw 36.8vw 0
+}
+
+.result .whiteSpacing {
+    width: 89.33333vw;
+    height: 8vw;
+    opacity: .04;
+    background: #333;
+    -webkit-filter: blur(2.66667vw);
+    filter: blur(2.66667vw)
+}
+
+.result .dinningFailContent {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6.4vw
+}
+
+.result .dinningFailContent .dinningFailInst {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.8vw;
+    margin-bottom: 12.8vw
+}
+
+.result .dinningFailContent .dinningFailInst .dinningFailTitle {
+    opacity: 1;
+    font-size: 5.33333vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 700;
+    text-align: left;
+    color: #333;
+    line-height: 4.26667vw
+}
+
+.result .dinningFailContent .dinningFailInst .dinningFailInfo {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #555;
+    line-height: 4.53333vw;
+    margin-top: 3.2vw;
+    min-width: 54.4vw;
+    max-width: 67.2vw
+}
+
+.result .dinningFailContent .dinningFailInst .dinningFailInfo.reasonTip {
+    color: #e2b883;
+    font-weight: 700
+}
+
+.result .dinningFailContent .dotList {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 8vw;
+    right: 5.6vw
+}
+
+.result .dinningFailContent .dotList .dotSolid {
+    width: 2.13333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    background: #e2b883;
+    border-radius: 50%
+}
+
+.result .dinningFailContent .dotList .dotSpace {
+    width: 2.13333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    border: .26667vw solid #e2b883;
+    border-radius: 50%;
+    margin: 1.6vw 0
+}
+
+.result .dinningFialLine {
+    width: 76.53333vw;
+    height: .26667vw;
+    opacity: 1;
+    background: #f2f2f2;
+    margin: 0 6.4vw
+}
+
+.result .sucessBox {
+    position: relative;
+    margin-top: 6.13333vw;
+    width: 89.33333vw;
+    opacity: 1;
+    background: #fff;
+    border-radius: 1.6vw;
+    box-shadow: 0 .53333vw 2.13333vw 0 #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4.53333vw
+}
+
+.result .sucessBox .storeName {
+    opacity: 1;
+    font-size: 4.26667vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    line-height: 4.26667vw;
+    margin-bottom: 5.33333vw;
+    margin-left: 6.4vw
+}
+
+.result .sucessBox .dinningOrder {
+    display: flex;
+    flex-direction: column;
+    margin: 5.33333vw 0 5.33333vw 6.4vw
+}
+
+.result .sucessBox .dinningOrder .dinningtitle {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 500;
+    text-align: left;
+    color: #999;
+    line-height: 4.26667vw;
+    margin-top: 5.33333vw;
+    display: flex;
+    flex-direction: row
+}
+
+.result .sucessBox .dinningOrder .dinningtitle .dinningVal {
+    width: 52.26667vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFang;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    margin-left: 5.33333vw
+}
+
+.result .sucessBox .dinningOrder .dinningtitle .dinningVal .numberTable {
+    margin-left: 2.66667vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFang, PingFang-Bold;
+    font-weight: 700;
+    text-align: left;
+    color: #333;
+    line-height: 4.26667vw
+}
+
+.result .sucessBox .dinningOrder .dinningtitle:first-child {
+    margin-top: 0
+}
+
+.result .sucessBox .opratinobtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.result .loadingBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.result .loadingBox .loadingImg {
+    height: 21.33333vw;
+    width: 21.33333vw
+}
+
+.BlankView {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    text-align: center;
+    overflow: hidden;
+    background: #fff
+}
+
+.BlankView .blankImg {
+    width: 42.66667vw;
+    height: 42.66667vw;
+    margin: 0 auto
+}
+
+.BlankView .blankText {
+    color: #333;
+    line-height: 4.26667vw
+}
+
+.BlankView .blankBtn, .BlankView .blankText {
+    font-family: Microsoft Yahei;
+    font-size: 3.73333vw;
+    letter-spacing: 0;
+    margin-top: 4.26667vw
+}
+
+.BlankView .blankBtn {
+    display: inline-block;
+    color: #d9474b;
+    line-height: 4.8vw;
+    height: 6.93333vw;
+    line-height: 6.93333vw;
+    padding: 0 3.2vw;
+    box-sizing: border-box;
+    border-radius: 3.46667vw;
+    text-align: center;
+    border: .26667vw solid #d9474b;
+    margin-bottom: 5.33333vw
+}
+
+.historyList {
+    width: 100%;
+    padding: 0 4.26667vw;
+    margin-top: 4.26667vw
+}
+
+.historyList .historyTitle {
+    display: flex;
+    align-items: center;
+    height: 5.33333vw
+}
+
+.historyList .historyTitle span {
+    font-size: 3.73333vw;
+    font-weight: 700
+}
+
+.historyList .historyTitle img {
+    width: 4.26667vw;
+    height: 4.26667vw;
+    margin-left: auto
+}
+
+.historyList .historyItem {
+    line-height: 4.53333vw;
+    padding: 1.33333vw 3.2vw;
+    font-size: 3.2vw;
+    background: #fff;
+    display: inline-block;
+    border-radius: 4.26667vw;
+    margin-right: 2.66667vw;
+    margin-top: 2.66667vw;
+    position: relative
+}
+
+.historyList .historyItem .close {
+    width: 3.73333vw;
+    height: 3.73333vw;
+    position: absolute;
+    right: -.8vw;
+    top: -.8vw
+}
+
+.dinnerSearchBox {
+    min-height: 100vh;
+    background: #f9f9f9
+}
+
+.dinnerSearchBox .headerTop {
+    position: fixed;
+    padding: 2.66667vw 4.26667vw 4.26667vw;
+    width: 100%;
+    z-index: 9;
+    background: #fff
+}
+
+.dinnerSearchBox .headerTop .topFirstBox {
+    display: flex;
+    flex-direction: row
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstCityBox {
+    width: 91.46667vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4.26667vw
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstCityBox .cityName {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstCityBox .cityImg {
+    height: 4.26667vw;
+    width: 4.26667vw;
+    margin: 0 1.6vw
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstCityBox .citySearch {
+    height: 3.73333vw;
+    width: 3.73333vw;
+    margin-right: 2.13333vw
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstCityBox .cityLine {
+    display: inline-block;
+    width: .53333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    background: #dedcde;
+    border-radius: .26667vw;
+    margin-right: 3.2vw
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstCityBox .am-input-item {
+    flex: 1 1;
+    height: 9.6vw !important;
+    min-height: 0 !important;
+    background: #f3f3f3;
+    border-radius: 2.13333vw
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstCityBox .am-input-item .am-list-line {
+    height: 9.6vw !important
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstRoomBox {
+    width: 31.2vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    margin-left: 2.66667vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstRoomBox .roomBoxTitle {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 800;
+    text-align: left;
+    color: #999
+}
+
+.dinnerSearchBox .headerTop .topFirstBox .firstRoomBox .roomBoxImg {
+    width: 7.46667vw;
+    height: 4.26667vw;
+    opacity: 1;
+    background: #fff;
+    margin-left: 1.6vw;
+    flex-shrink: 1
+}
+
+.dinnerSearchBox .storeBox {
+    margin-top: 16vw;
+    padding-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll
+}
+
+.dinnerSearchBox .storeBox .storeLi {
+    width: 93.6vw;
+    border-radius: 2.66667vw;
+    box-shadow: 0 .53333vw 2.13333vw 0 #e6e6e6;
+    background: #fff;
+    margin-bottom: 4vw;
+    padding-top: 5.86667vw;
+    padding-bottom: 3.2vw;
+    position: relative
+}
+
+.dinnerSearchBox .storeBox .storeLi .upgrade {
+    width: 16.53333vw;
+    height: 4.26667vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #787878;
+    border-radius: 2.66667vw 0 2.66667vw 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.dinnerSearchBox .storeBox .storeLi .upgrade span {
+    opacity: 1;
+    font-size: 2.66667vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    line-height: 3.73333vw
+}
+
+.dinnerSearchBox .storeBox .storeLi .storeInfo {
+    display: flex;
+    align-items: center;
+    padding: 0 5.33333vw
+}
+
+.dinnerSearchBox .storeBox .storeLi .storeInfo .storeName {
+    opacity: 1;
+    font-size: 4.26667vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333
+}
+
+.dinnerSearchBox .storeBox .storeLi .storeInfo .storeDistance {
+    height: 4.53333vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    margin-left: 3.73333vw;
+    color: #333;
+    line-height: 4.53333vw
+}
+
+.dinnerSearchBox .storeBox .storeLi .storeInfo .storecallPhoneImgce {
+    height: 4vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 600;
+    text-align: left;
+    color: #333;
+    line-height: 4vw;
+    margin-left: 2.66667vw
+}
+
+.dinnerSearchBox .storeBox .storeLi .callPhoneBox {
+    width: 23.46667vw;
+    height: 6.66667vw;
+    margin-left: auto;
+    opacity: 1
+}
+
+.dinnerSearchBox .storeBox .storeLi .callPhoneBox .callPhoneImg {
+    width: 23.46667vw;
+    height: 6.66667vw
+}
+
+.dinnerSearchBox .storeBox .storeLi .storeAddress {
+    opacity: 1;
+    font-size: 2.93333vw;
+    font-family: PingFangSC;
+    font-weight: 500;
+    text-align: left;
+    color: #9a9a9a;
+    line-height: 4.26667vw;
+    padding: 0 5.33333vw;
+    margin-top: 1.86667vw
+}
+
+.dinnerSearchBox .storeBox .storeLi .callPhoneImgIcon {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0
+}
+
+.dinnerSearchBox .storeBox .storeLi .callPhoneImgIcon .callPhoneLine {
+    width: .26667vw;
+    height: 3.46667vw;
+    opacity: 1;
+    background: #f2f2f2;
+    margin-right: 4vw
+}
+
+.dinnerSearchBox .storeBox .storeLi .callPhoneImgIcon .callPhoneImgMobile {
+    width: 4vw;
+    height: 4vw;
+    opacity: 1
+}
+
+.dinnerSearchBox .storeBox .timeBtns {
+    margin-top: 3.2vw;
+    white-space: nowrap;
+    display: flex;
+    height: 19.46667vw;
+    overflow-x: scroll
+}
+
+.dinnerSearchBox .storeBox .timeBtns .timeBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20.53333vw;
+    height: 17.33333vw;
+    opacity: 1;
+    background: #fff;
+    border-radius: 2.13333vw;
+    box-shadow: 0 .53333vw 2.13333vw 0 #e6e6e6;
+    margin-left: 3.2vw;
+    flex-shrink: 0
+}
+
+.dinnerSearchBox .storeBox .timeBtns .timeBtn .time {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: center;
+    color: #333
+}
+
+.dinnerSearchBox .storeBox .timeBtns .timeBtn .btnLine {
+    width: 16.26667vw;
+    height: .26667vw;
+    opacity: 1;
+    background: #f2f2f2;
+    margin-top: 1.86667vw;
+    margin-bottom: 1.6vw
+}
+
+.dinnerSearchBox .storeBox .timeBtns .timeBtn .btnImg {
+    width: 16.26667vw;
+    height: 6.66667vw;
+    opacity: 1
+}
+
+.dinnerSearchBox .storeBox .timeBtns .timeBtn:first-child {
+    margin-left: 4.26667vw
+}
+
+.dinnerSearchBox .storeBox .timeBtns .timeBtn:last-child {
+    margin-right: 4.26667vw
+}
+
+.dinnerSearchBox .noData {
+    position: relative;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 600;
+    text-align: left;
+    color: #999;
+    line-height: 3.73333vw;
+    text-align: center;
+    margin-bottom: 16vw
+}
+
+.NumberSearchBox {
+    padding-bottom: 16vw
+}
+
+.NumberSearchBox .headerTop {
+    position: fixed;
+    padding: 2.66667vw 4.26667vw 4.26667vw;
+    background: #fff;
+    width: 100%;
+    z-index: 9
+}
+
+.NumberSearchBox .headerTop .topFirstBox {
+    display: flex;
+    flex-direction: row
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstCityBox {
+    width: 91.46667vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4.26667vw
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstCityBox .cityName {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 700;
+    text-align: left;
+    color: #333
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstCityBox .numeralDot {
+    width: 4.26667vw;
+    height: 4.26667vw;
+    opacity: 1;
+    margin-left: 2.93333vw
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstCityBox .cityImg {
+    height: 4.26667vw;
+    width: 4.26667vw;
+    margin: 0 1.6vw
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstCityBox .citySearch {
+    height: 3.73333vw;
+    width: 3.73333vw
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstCityBox .cityLine {
+    display: inline-block;
+    width: .53333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    background: #dedcde;
+    border-radius: .26667vw;
+    margin-right: 3.2vw
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstCityBox .am-input-item {
+    flex: 1 1;
+    height: 9.6vw !important;
+    min-height: 0 !important;
+    background: #f3f3f3;
+    border-radius: 2.13333vw
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstCityBox .am-input-item .am-list-line {
+    height: 9.6vw !important
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstRoomBox {
+    width: 31.2vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    margin-left: 2.66667vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstRoomBox .roomBoxTitle {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 700;
+    text-align: left;
+    color: #999
+}
+
+.NumberSearchBox .headerTop .topFirstBox .firstRoomBox .roomBoxImg {
+    width: 7.46667vw;
+    height: 4.26667vw;
+    opacity: 1;
+    background: #fff;
+    margin-left: 1.6vw;
+    flex-shrink: 1
+}
+
+.NumberSearchBox .storeBox {
+    position: relative;
+    top: 9.6vw;
+    margin-top: 4.26667vw;
+    margin-bottom: 8vw;
+    padding-top: 4.26667vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.NumberSearchBox .noData {
+    position: relative;
+    top: 4vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 600;
+    text-align: left;
+    color: #999;
+    line-height: 3.73333vw;
+    margin-top: 4vw;
+    text-align: center
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-body .am-modal-alert-content, .am-modal-wrap:not(.modalPopup) .am-modal .am-modal-body .am-modal-propmt-content {
+    font-weight: 700;
+    font-size: 4.53333vw
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-body {
+    height: 21.33333vw
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal {
+    width: 85.33333vw
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-footer .am-modal-button-group-h .am-modal-button:first-child {
+    color: #000 !important;
+    font-size: 4.53333vw
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-footer .am-modal-button-group-h .am-modal-button:nth-child(2) {
+    color: #e2b883 !important;
+    font-size: 4.53333vw
+}
+
+.cityBox {
+    min-height: 100%;
+    background-color: #fff;
+    overflow-x: hidden
+}
+
+.cityBox .headerTopBox {
+    height: 26.66667vw
+}
+
+.cityBox .headerTopBox .headerTop {
+    position: fixed;
+    padding: 4.26667vw 4.26667vw 0;
+    background: #fff;
+    width: 100%;
+    z-index: 9;
+    border-bottom: .26667vw solid #f9f9f9
+}
+
+.cityBox .headerTopBox .headerTop .topFirstBox {
+    display: flex;
+    flex-direction: row
+}
+
+.cityBox .headerTopBox .headerTop .topFirstBox .firstCityBox {
+    width: 91.46667vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4.26667vw
+}
+
+.cityBox .headerTopBox .headerTop .topFirstBox .firstCityBox .citySearch {
+    height: 3.73333vw;
+    width: 3.73333vw;
+    margin-right: 2.13333vw
+}
+
+.cityBox .headerTopBox .headerTop .topFirstBox .firstCityBox .searchStore {
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #999
+}
+
+.cityBox .headerTopBox .headerTop .cityTypeBox {
+    width: 100%;
+    height: 8.53333vw;
+    opacity: 1;
+    padding: 0 21.33333vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.26667vw
+}
+
+.cityBox .headerTopBox .headerTop .cityTypeBox .cityTpye {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 8.53333vw
+}
+
+.cityBox .headerTopBox .headerTop .cityTypeBox .cityTpye .title {
+    opacity: 1;
+    font-size: 4vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    line-height: 5.6vw
+}
+
+.cityBox .headerTopBox .headerTop .cityTypeBox .cityTpye .line {
+    width: 4.26667vw;
+    height: 1.06667vw;
+    opacity: 1;
+    background: #e2b883;
+    border-radius: .8vw;
+    margin-top: .53333vw
+}
+
+.cityBox .domesticBox, .cityBox .internationalBox {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll
+}
+
+.cityBox .domesticBox .positionBox, .cityBox .internationalBox .positionBox {
+    display: flex;
+    flex-direction: column;
+    padding: 5.33333vw 0 0 5.33333vw
+}
+
+.cityBox .domesticBox .positionBox .title, .cityBox .internationalBox .positionBox .title {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #b8b8b8;
+    line-height: 4.53333vw
+}
+
+.cityBox .domesticBox .positionBox .cityList, .cityBox .internationalBox .positionBox .cityList {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.cityBox .domesticBox .positionBox .city, .cityBox .internationalBox .positionBox .city {
+    flex-shrink: 0;
+    min-width: 26.66667vw;
+    height: 7.2vw;
+    opacity: 1;
+    background: #fafafa;
+    border-radius: 3.73333vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.66667vw;
+    margin-right: 2.66667vw;
+    align-self: baseline;
+    padding: 0 3.2vw
+}
+
+.cityBox .domesticBox .positionBox .city .positionImg, .cityBox .internationalBox .positionBox .city .positionImg {
+    width: 3.2vw;
+    height: 3.2vw;
+    opacity: 1
+}
+
+.cityBox .domesticBox .positionBox .city .positionCity, .cityBox .internationalBox .positionBox .city .positionCity {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    margin-left: 1.06667vw
+}
+
+.cityBox .domesticBox .paddingBottom, .cityBox .internationalBox .paddingBottom {
+    padding-bottom: 5.33333vw
+}
+
+.cityBox .domesticBox .cityLi .liTitle, .cityBox .internationalBox .cityLi .liTitle {
+    box-sizing: border-box;
+    padding: 2.4vw 5.33333vw;
+    width: 100%;
+    height: 8.53333vw;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    opacity: 1;
+    background: #f9f9f9
+}
+
+.cityBox .domesticBox .cityLi .liName:first-child, .cityBox .internationalBox .cityLi .liName:first-child {
+    border: none !important
+}
+
+.cityBox .domesticBox .cityLi .liName, .cityBox .internationalBox .cityLi .liName {
+    height: 13.86667vw;
+    opacity: 1;
+    background: #fff;
+    line-height: 13.86667vw;
+    margin: 0 5.33333vw;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: #333;
+    box-sizing: border-box;
+    border-top: .26667vw solid #f9f9f9
+}
+
+.cityBox .internationalBox {
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll
+}
+
+.cityBox .internationalBox .nomalCityList {
+    width: 100%;
+    margin-top: 5.33333vw;
+    box-sizing: border-box
+}
+
+.cityBox .internationalBox .nomalCityList .cityLi .liTitle {
+    box-sizing: border-box;
+    padding: 2.4vw 5.33333vw;
+    width: 100%;
+    height: 8.53333vw;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    opacity: 1;
+    background: #f9f9f9
+}
+
+.cityBox .internationalBox .nomalCityList .cityLi .liName:first-child {
+    border: none !important
+}
+
+.cityBox .internationalBox .nomalCityList .cityLi .liName {
+    height: 13.86667vw;
+    opacity: 1;
+    background: #fff;
+    line-height: 13.86667vw;
+    margin: 0 5.33333vw;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: #333;
+    box-sizing: border-box;
+    border-top: .26667vw solid #f9f9f9
+}
+
+.cityBox .letterListView {
+    padding-top: 26.66667vw;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    margin-right: 2.13333vw
+}
+
+.cityBox .letterListBox, .cityBox .letterListView {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.cityBox .letterListBox {
+    flex-direction: column;
+    width: 5.6vw
+}
+
+.cityBox .letterListBox .letterLi {
+    opacity: 1;
+    font-size: 2.66667vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: center;
+    color: #3d3d3d;
+    border: 1.33333vw solid transparent
+}
+
+.cityBox .placeholder {
+    height: 21.33333vw
+}
+
+.numberDetailBox .numberDetailContent {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9
+}
+
+.numberDetailBox .numberDetailContent .customerInfo {
+    width: 100%;
+    opacity: 1;
+    background: #fff;
+    border-radius: 0 0 2.66667vw 2.66667vw;
+    padding: 5.33333vw 0 4.26667vw 5.33333vw
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .headInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .headInfo .headImg {
+    width: 17.06667vw;
+    height: 17.06667vw;
+    opacity: 1;
+    border-radius: 6.93333vw
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .headInfo .headContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.2vw
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .headInfo .headContent .nickName {
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 700;
+    text-align: left;
+    color: #333;
+    line-height: 6.4vw;
+    max-width: 53.33333vw;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .headInfo .headContent .storeName {
+    opacity: 1;
+    font-size: 3.73333vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #333;
+    line-height: 5.33333vw;
+    margin-top: 1.06667vw
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .dinnerInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.53333vw
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .dinnerInfo .dinnerLine {
+    width: 89.33333vw;
+    height: .26667vw;
+    opacity: 1;
+    background: #f9f9f9;
+    margin: 4.26667vw 0 4vw
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .dinnerInfo .dinnerTitle {
+    opacity: 1;
+    font-size: 3.73333vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    line-height: 5.33333vw
+}
+
+.numberDetailBox .numberDetailContent .customerInfo .dinnerInfo .dinnerContent {
+    opacity: 1;
+    font-size: 3.73333vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #292929;
+    line-height: 5.33333vw;
+    margin-left: 4vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox {
+    width: 100vw;
+    opacity: 1;
+    background: #fff;
+    border-radius: 2.66667vw 2.66667vw 0 0;
+    margin-top: 4.26667vw;
+    padding: 5.33333vw 5.33333vw 0 0;
+    display: flex;
+    flex-direction: column
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInfoImg {
+    width: 15.73333vw;
+    opacity: 1;
+    margin-left: 5.33333vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction {
+    margin-top: 2.66667vw;
+    margin-left: 5.33333vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.2vw;
+    margin-bottom: 3.2vw;
+    min-height: 4.26667vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList .numberLiDot {
+    width: .8vw;
+    height: .8vw;
+    opacity: 1;
+    background: #e1caa0;
+    border-radius: 50%;
+    margin-top: 1.6vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList .numberInstLi {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    line-height: 4.26667vw;
+    margin-left: 1.6vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList .numberInstLi .numberInstLiNum {
+    color: #de484c
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList .restTime {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.13333vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList .restTime .restTimeName {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.13333vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList .restTime .restTimeName .time {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #111;
+    line-height: 4.26667vw;
+    margin-left: 2.13333vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList .restTime .restTimeName:first-child, .numberDetailBox .numberDetailContent .numberBox .numberInstruction .infoList:first-child {
+    margin-top: 0
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5.33333vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox .tableBoxInfo {
+    width: 28vw;
+    height: 31.2vw;
+    opacity: 1;
+    background: #fefefe;
+    border: .26667vw solid #666;
+    border-radius: 2.93333vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.66667vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox .tableBoxInfo .littleImg {
+    width: 6.93333vw;
+    opacity: 1;
+    margin: 3.2vw 0 0 3.2vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox .tableBoxInfo .tableBoxLine {
+    width: 21.6vw;
+    height: .26667vw;
+    opacity: 1;
+    background: #f2f2f2;
+    margin: 2.66667vw 6.4vw 2.66667vw 3.2vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox .tableBoxInfo .tableBoxContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 0 3.2vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox .tableBoxInfo .tableBoxContent .numberTitle {
+    width: 11.2vw;
+    height: 4.53333vw;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFang, PingFang-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #333;
+    line-height: 4.53333vw;
+    flex-shrink: 0
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox .tableBoxInfo .tableBoxContent .numberDigital {
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 600;
+    text-align: left;
+    color: #e2b883;
+    line-height: 6.66667vw;
+    margin-right: .53333vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox .tableBoxInfo .tableBoxContent .numberHao {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #333;
+    line-height: 4.53333vw
+}
+
+.numberDetailBox .numberDetailContent .numberBox .tableBox .tableBoxInfo:end {
+    margin-right: 0
+}
+
+.numberDetailBox .numberDetailBottom {
+    position: relative;
+    z-index: 1;
+    top: 18.13333vw;
+    width: 100vw;
+    height: 23.46667vw;
+    opacity: 1;
+    background: #fff;
+    border-radius: 2.66667vw 2.66667vw 0 0;
+    box-shadow: 0 -.53333vw 2.13333vw 0 #e6e6e6;
+    align-items: center
+}
+
+.numberDetailBox .numberDetailBottom .promptlyImg {
+    width: 89.33333vw;
+    height: 10.66667vw;
+    opacity: 1;
+    margin: 2.66667vw 5.33333vw 0
+}
+
+.numberMoreModalTitle {
+    font-weight: 700;
+    color: #000
+}
+
+.contentBox {
+    padding: 0 5.86667vw;
+    font-size: 2.93333vw
+}
+
+.rowTipNumber {
+    color: #de484c
+}
+
+.shareBox {
+    height: 216.53333vw;
+    width: 100%;
+    overflow: hidden;
+    background: url(../images/share-bg1.457accf6.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-top: 58.66667vw;
+    align-items: center;
+    flex-direction: column
+}
+
+.shareBox .shareCrown {
+    width: 11.46667vw;
+    height: 9.86667vw;
+    opacity: 1;
+    z-index: 2;
+    overflow: hidden;
+    flex-shrink: 0
+}
+
+.shareBox .shareHeader {
+    opacity: 1;
+    margin-top: -2.13333vw;
+    background: #ccc
+}
+
+.shareBox .shareHeader, .shareBox .shareHeader .headerImg {
+    width: 13.86667vw;
+    height: 13.86667vw;
+    border-radius: 6.93333vw
+}
+
+.shareBox .shareUserName {
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    line-height: 6.66667vw;
+    margin-top: 1.33333vw;
+    max-width: 53.33333vw;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.shareBox .shareStoreTitle {
+    opacity: 1;
+    font-size: 3.73333vw;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: right;
+    color: #231916;
+    line-height: 5.33333vw;
+    margin-top: 5.33333vw
+}
+
+.shareBox .shareStoreName {
+    margin-top: 1.06667vw;
+    width: 67.2vw;
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: center;
+    color: #231916;
+    line-height: 6.66667vw
+}
+
+.shareBox .shareStoreAddress {
+    width: 74.66667vw;
+    height: 8.53333vw;
+    opacity: .8;
+    font-size: 2.93333vw;
+    font-family: PingFangSC;
+    font-weight: 600;
+    text-align: center;
+    color: #231916;
+    line-height: 4.26667vw;
+    margin-top: 1.6vw
+}
+
+.shareBox .shareNumeralBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.shareBox .shareNumeralBox .title {
+    width: 26.66667vw;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+    font-size: 3.73333vw;
+    height: 5.33333vw;
+    font-family: PingFangSC;
+    font-weight: 500;
+    color: #231916;
+    margin-top: 5.33333vw
+}
+
+.shareBox .shareNumeralBox .title .shareBut {
+    position: absolute;
+    width: 3.2vw;
+    height: 3.2vw;
+    opacity: 1;
+    right: 1.6vw
+}
+
+.shareBox .shareNumeralBox .value {
+    opacity: 1;
+    font-size: 4.8vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #231916;
+    line-height: 6.66667vw;
+    margin-top: 1.06667vw
+}
+
+.shareBox .shareNumeralBox .shareToast {
+    width: 30.4vw;
+    height: 11.2vw;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAAqCAYAAABvAA/nAAAFyUlEQVR4Xu2b30tcRxTH5/60mhp/BSVES6FUH6NRygaxxYciFB9Kmz70R95aUoqEQvMHGErxpe1Tkb4lpZC+9EEsSKG0VBuVpKDQPhS0QitSZJGuxs1mvb8mnOu929nZuXdm3b1rszvCsut1du7M+dzvOWfOjAqSP3VhAUVwFqLtBLuTzQgL4GpYIw4QDx7v79UYX731IQJNpE2JXaJgkNdF2tSbwZOcDwuU6LXIcbEghdf8d4yxm+SsGrFvjLGHEN73PPyj4zg/Ly4ufjUxMfEosAUNVUihNMgiiAghBWPs2Fa+Ee2d6JwVRUGKoiJV1RBSlKxt25/MzMx8Pj097TCAcmGyXCgJE0DaEmSiTBFA1TQDgP51cHDwWkdHx2/gDCmgsTCjQMJ1/4UxtiTIZEGGvYM6VU07OjzMvt7W1vZ9OTBpkKQa1QDkkQRZG5BwF3C3um44/2YyL3Z1dd0XhVkSE0MlBu8qxjgvQdYOpA9TVZGm6enNzT8vDQwM7IrAjALpqxEhBCAfSZC1BQl3g5jpet5t0zTfC0BCjKTjZmFgcSABJoDMSZC1Bwk6Mswmb2dnZ7Cvr+8PHkwWyIIa4cHAGD+UIE8DJEKqpiPPc2dN86kPA5AekckWZbFRIH01BorM2lZeluNOgSUkPpqu76uq1oMQAoihey1xsUVrxmCsBYgByAe2lddOYR7ylggh3WhCq6urz46Ojv5DqLJ8kK7rbnuu3YUxt7ggDZ+ABXTdRJm9vStdPT3fMVRZgMJ1rZaVn1MV9WXPkyXXBDhxu9R0Ax0eZq+1t7ffphRZpEouyEwmc+Ps2dabrmNzbyobVN8CAPLg4MH7nZ2dABLiJBkr/X0Nf+0Z3LqkogMZK8TIlZWVgVQqtebYR9UfpeyRawFwrXvp9Bvd58+TrjWEGQvSLwQELx+mZVl3FQVdxNK9cg1f7QaQ7CwsLDw3OTkJyQ7EN1Bg2SABqLa9vX2lt/fCLce2qj1O2V+MBYjlxwXCrZLulavIUJW+IgNVLqoKGpJJT+2ePSgI2Lb1ZXPzmY9EQYbxsrB9RbhXX5Vra/cvDQ6O/OQ6FpTtajebhr0TlOhM79695RdSqTEo0YESua6VTnzIMp0PEsCm07vXz53r/vjYxUqYST5jUDQ/svJft7Q8/QEBMYyNkTGSBhm61hIXm8tlZ5uamt86Xo5ImEnAhG0sVdXTd+7cGr169V3YxgIlhrExdvkRjod0reHnogwWlJnNHs62tJx503UsOJyVxFwats/jBMdw1tfXJ4aHh38lANJulVkQIEGS8ZJ2saGbVXZ3d6e6u7tveq6jygSoOs8dHPVQVO1oa2vr7f7+/h8YCQ5dOC8p0UWBpFVZVFBfXl4cGhlJfWYY+qDrukiuM08GNDx8hRH+e2npl3fGx8d/j4FYEh/JuEiOgN4RIQsE5OeCWre2Nl/t7X3mumEYF+HIJvY85L9LtxtJljwOiRF6uLeX/nRs7KUvNjY24DgkGQ9ZsTFy9yMKJFwPgbGAkkmRMjf37fOXL4+90traOmqa5pCmqW1wAoUoBZ7ska2zb8EBZYzxfi6XW8pkMnenpqa+mZ+fhwPKZFbKAsjdWKZNxVIl6WbprJZOkugsuM5QVDQdMjskN4rDz2Tlhi6SR57bidv5F4FZpEjiBB7ttuUJg//Yx4Ekkxl6zSh0+Ir1iJHGZy1L6CpQ+HuUGiXM4oU3GedINZIqZa4ZWQt4nnFZMFnlPBboqGSqIr9UJ19mQYSpsZYXQv86wAMZ5SJJcCywLIgi96oTTpHToN0qNGQdqIo6ZBVZfRE1Lq1M2n2S8VQmOvzHkRUnSajhZ9Y7s3dRkOGXeUDj2vGn1zgtopQZBY5bBy0XJM9l0v2dpP9GwcmCSYIM7cCFWGkywoIUBU4CZS8/4mAJAWS5wEqUIAJKpE0lY3gSvisCR6RNyVyTMm5S/T4JsMod44nA0TeRBi/X7P/T9o8Ba01QSXOrl8MAAAAASUVORK5CYII=) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: -.53333vw;
+    right: -21.33333vw;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 3.2vw;
+    justify-content: center;
+    opacity: 1;
+    font-size: 2.66667vw;
+    font-family: PingFangSC;
+    font-weight: 500;
+    color: #231916
+}
+
+.shareBox .shareBtn {
+    opacity: 1;
+    background-size: 100%;
+    margin-top: 13.06667vw
+}
+
+.shareBox .shareBtn .shareBtnImg {
+    height: 12.8vw
+}
+
+.shareBox .qrCodeImg {
+    margin-top: 8vw;
+    width: 26.4vw;
+    height: 26.4vw;
+    opacity: 1
+}
+
+.dinnerDetailBox .dinnerDetail .userInfoBox {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 26.93333vw;
+    align-items: center
+}
+
+.dinnerDetailBox .dinnerDetail .userInfoBox .userIcon {
+    margin-left: 5.33333vw;
+    overflow: hidden;
+    flex-shrink: 0
+}
+
+.dinnerDetailBox .dinnerDetail .userInfoBox .userIcon, .dinnerDetailBox .dinnerDetail .userInfoBox .userIcon .userIconImg {
+    width: 17.06667vw;
+    height: 17.06667vw;
+    border-radius: 6.93333vw
+}
+
+.dinnerDetailBox .dinnerDetail .userInfoBox .userMsgBox {
+    height: 17.06667vw;
+    margin-left: 3.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.dinnerDetailBox .dinnerDetail .userInfoBox .userMsgBox .name {
+    font-size: 4.8vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    max-width: 53.33333vw;
+    line-height: 6.4vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.dinnerDetailBox .dinnerDetail .userInfoBox .userMsgBox .detail {
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #333;
+    line-height: 5.33333vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 5.33333vw 5.33333vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox {
+    height: 13.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4vw;
+    box-sizing: border-box
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .title {
+    display: inline-block;
+    width: 15.46667vw;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    line-height: 5.33333vw;
+    flex-shrink: 0
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .input {
+    margin-left: 7.73333vw;
+    width: 26.4vw;
+    height: 100%;
+    font-size: 4.8vw !important;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #292929;
+    flex-shrink: 0;
+    padding-left: 0 !important;
+    border: none;
+    caret-color: #333
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .input .am-list-line {
+    padding: 0 !important;
+    border: none !important
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .input .am-input-control input {
+    font-size: 4.26667vw !important
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .input .am-list-line:after {
+    background: #fff
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox input::-webkit-input-placeholder {
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #ccc
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox input:-ms-input-placeholder {
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #ccc
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox input::placeholder {
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #ccc
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .phoneInput {
+    width: 32vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .line {
+    margin-left: 12.26667vw;
+    margin-right: 4.26667vw;
+    width: .53333vw;
+    height: 2.13333vw;
+    opacity: 1;
+    background: #f0f0f0;
+    border-radius: .26667vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .sexBox {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .sexBox .sex {
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    line-height: 5.33333vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .sexBox .selected {
+    margin-left: 1.06667vw;
+    width: 3.73333vw;
+    height: 3.73333vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .sexBox:last-child {
+    margin-right: 4.26667vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .clean {
+    margin-left: 5.06667vw;
+    width: 3.73333vw;
+    height: 3.73333vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .customerLine {
+    background: #f9f9f9;
+    margin-left: 5.33333vw;
+    margin-right: 5.33333vw;
+    height: .26667vw
+}
+
+.dinnerDetailBox .dinnerDetail .customerBox .customerInfoBox .maringLeft20 {
+    margin-left: 2.66667vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox {
+    border-radius: 2.66667vw 2.66667vw 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 4.26667vw;
+    width: 100%
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .dinnerExplainBox {
+    display: flex;
+    flex-direction: column;
+    padding: 5.33333vw 5.33333vw 0
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .dinnerExplainBox .dinnerExplainImg {
+    width: 15.73333vw;
+    margin-bottom: -1.06667vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .dinnerExplainBox .dinnerExplainInfoBox {
+    display: flex;
+    flex-direction: row;
+    height: 13.86667vw;
+    align-items: center;
+    border-bottom: .26667vw solid #f9f9f9
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .dinnerExplainBox .dinnerExplainInfoBox .dinnerText {
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    line-height: 5.33333vw;
+    flex-shrink: 0
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .dinnerExplainBox .dinnerExplainInfoBox .dinnerDetail {
+    margin-left: 5.33333vw;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #292929;
+    line-height: 5.33333vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .dinnerExplainBox .dinnerAlert {
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #999;
+    line-height: 5.33333vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33.6vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialBox .specialImg {
+    margin-top: 6.4vw;
+    margin-left: 5.33333vw;
+    width: 15.73333vw;
+    margin-bottom: 1.06667vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox {
+    display: flex;
+    flex-direction: column
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .specialTitle {
+    margin-top: 3.2vw;
+    margin-left: 5.86667vw;
+    margin-bottom: 3.2vw;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 500;
+    text-align: left;
+    color: #333;
+    line-height: 4.53333vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .specialListBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 0 4.26667vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .specialItemBox {
+    margin: 0 3.2vw 3.2vw 0;
+    height: 7.2vw;
+    background: #fafafa;
+    border-radius: 4.26667vw;
+    display: flex;
+    justify-content: center;
+    align-self: center
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .specialItemText {
+    margin: 1.33333vw 5.33333vw;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .specialItemBox.selected {
+    background: #e2b883
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .specialItemBox.selected .specialItemText {
+    color: #fff
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .remarkBox {
+    position: relative;
+    width: 90.66667vw;
+    height: 33.06667vw;
+    opacity: 1;
+    background: #fafafa;
+    border-radius: 2.66667vw;
+    margin-left: 4.66667vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .remarkBox .textarea {
+    height: 100%;
+    width: 100%;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #292929;
+    line-height: 5.33333vw;
+    background: #fafafa;
+    padding: 0 !important
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .remarkBox .textarea .am-textarea-control {
+    height: 100%;
+    width: 100%;
+    padding: 0 0 5.33333vw !important
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .remarkBox .textarea .am-textarea-control textarea {
+    font-size: 3.73333vw;
+    height: 100%;
+    width: 100%;
+    padding: 3.2vw 4.26667vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerBox .specialInfoBox .remarkBox .textareaPlaceholder {
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    text-align: left;
+    color: #ccc;
+    line-height: 5.33333vw
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerButtonBox {
+    position: fixed;
+    bottom: 0;
+    width: 100% !important;
+    height: 23.46667vw !important;
+    opacity: 1;
+    background: #fff;
+    box-shadow: 0 -.53333vw 2.13333vw 0 #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.66667vw 0 0 !important;
+    border-radius: 2.66667vw 2.66667vw 0 0
+}
+
+.dinnerDetailBox .dinnerDetail .dinnerButtonBox img {
+    width: 89.33333vw;
+    height: 10.66667vw;
+    opacity: 1
+}
+
+.citySearchBox {
+    min-height: 100%;
+    background-color: #fff;
+    overflow-x: hidden
+}
+
+.citySearchBox .headerTopBox {
+    height: 13.33333vw
+}
+
+.citySearchBox .headerTopBox .headerTop {
+    position: fixed;
+    padding: 4.26667vw 4.26667vw 0;
+    background: #fff;
+    width: 100%;
+    z-index: 9;
+    border-bottom: .26667vw solid #f9f9f9
+}
+
+.citySearchBox .headerTopBox .headerTop .topFirstBox {
+    display: flex;
+    flex-direction: row
+}
+
+.citySearchBox .headerTopBox .headerTop .topFirstBox .firstCityBox {
+    width: 91.46667vw;
+    height: 9.6vw;
+    opacity: 1;
+    background: #f3f3f3;
+    border-radius: 2.13333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4.26667vw;
+    overflow: hidden
+}
+
+.citySearchBox .headerTopBox .headerTop .topFirstBox .firstCityBox .citySearch {
+    height: 3.73333vw;
+    width: 3.73333vw;
+    margin-right: 2.13333vw
+}
+
+.citySearchBox .headerTopBox .headerTop .topFirstBox .firstCityBox .searchStore {
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #999;
+    width: 100%;
+    background: #f3f3f3
+}
+
+.citySearchBox .headerTopBox .headerTop .cityTypeBox {
+    width: 100%;
+    height: 8.53333vw;
+    opacity: 1;
+    padding: 0 26.66667vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.26667vw
+}
+
+.citySearchBox .headerTopBox .headerTop .cityTypeBox .cityTpye {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 8.53333vw
+}
+
+.citySearchBox .headerTopBox .headerTop .cityTypeBox .cityTpye .title {
+    opacity: 1;
+    font-size: 4vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #333;
+    line-height: 5.6vw
+}
+
+.citySearchBox .headerTopBox .headerTop .cityTypeBox .cityTpye .line {
+    width: 4.26667vw;
+    height: 1.06667vw;
+    opacity: 1;
+    background: #e2b883;
+    border-radius: .8vw;
+    margin-top: .53333vw
+}
+
+.citySearchBox .liName {
+    height: 14.93333vw;
+    opacity: 1;
+    background: #fff;
+    line-height: 13.86667vw;
+    margin: 0 5.33333vw;
+    font-size: 3.73333vw;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: #333;
+    box-sizing: border-box;
+    border-bottom: .26667vw solid #f9f9f9
+}
+
+.citySearchBox .noCityText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC;
+    font-weight: 900;
+    text-align: left;
+    color: #999;
+    margin-top: 5.33333vw
+}
+
+.transitPage {
+    font-size: 5.33333vw;
+    color: #000
+}
+
+.transitPage .loadingBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.transitPage .loadingBox .loadingImg {
+    height: 21.33333vw;
+    width: 21.33333vw
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    -ms-user-select: text;
+    user-select: text;
+    -webkit-user-select: text
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a {
+    color: #7e8c8d;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden
+}
+
+li {
+    list-style: none
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+* {
+    -o-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+* ::-webkit-scrollbar {
+    display: none
+}
+
+.font-semibold {
+    font-family: "PingFangSC-Semibold" !important
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal {
+    border-radius: 2.66667vw !important;
+    overflow: hidden
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-header {
+    padding-top: 4vw !important
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-header .am-modal-title {
+    font-family: Microsoft Yahei;
+    color: #333;
+    font-size: 4.53333vw
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-body {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-body .am-modal-alert-content, .am-modal-wrap:not(.modalPopup) .am-modal .am-modal-body .am-modal-propmt-content {
+    color: #4f4f4f
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-footer {
+    margin-top: 4vw !important
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-footer .am-modal-button-group-h .am-modal-button:first-child {
+    font-family: Microsoft Yahei;
+    font-size: 3.73333vw;
+    color: #999;
+    text-align: center
+}
+
+.am-modal-wrap:not(.modalPopup) .am-modal .am-modal-footer .am-modal-button-group-h .am-modal-button:nth-child(2) {
+    font-family: Microsoft Yahei;
+    font-size: 3.73333vw;
+    color: #de474b;
+    text-align: center
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #f7f7f7
+}
+
+body ::-webkit-scrollbar, html ::-webkit-scrollbar {
+    display: none
+}
+
+body textarea, html textarea {
+    -webkit-user-select: text !important
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh
+}
+
+* {
+    box-sizing: border-box
+}
+
+.placeholder {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Semibold;
+    font-weight: 600;
+    text-align: left;
+    color: #999;
+    line-height: 3.73333vw;
+    text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 30.13333vw
+}
+
+.loadingBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.loadingBox .loadingImg {
+    height: 21.33333vw;
+    width: 21.33333vw
+}
+
+.am-list-item .am-input-control input {
+    opacity: 1;
+    font-size: 3.2vw;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #3e3e3e
+}
